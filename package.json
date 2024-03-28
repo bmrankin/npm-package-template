@@ -1,0 +1,27 @@
+{
+  "name": "@bmrankin/npm-package-template",
+  "version": "0.0.1",
+  "description": "Simple test/template setup for NPM packages",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "bmrankin",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Bryan Rankin",
+      "email": "bryan@bryanrankin.com",
+      "url": "https://github.com/bmrankin"
+    }
+  ],
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.6",
+    "vitest": "^1.4.0"
+  }
+}
